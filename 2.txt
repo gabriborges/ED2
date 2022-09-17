@@ -1,0 +1,7 @@
+void contador_nos(Nodo *n) {
+  if (n == NULL)
+    return;
+  contador_nos(n->esq);
+  contador_nos(n->dir);
+  contador++;
+}
