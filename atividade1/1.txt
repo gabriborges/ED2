@@ -1,0 +1,1 @@
+Uma árvore é um grafo conexo que não possui circuitos. Uma árvore orientada é um digrafo conexo que não possui circuitos ou semi-circuitos. Um grafo G é uma árvore se, e somente se, existir um e apenas um caminho entre cada par de vértices
