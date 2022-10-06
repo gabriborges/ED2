@@ -1,0 +1,17 @@
+int maior = 0;
+
+void buscarMaior(Nodo *n)
+{
+	if(n==NULL)
+		return;
+	
+    buscarMaior(n->esq);
+
+    if ((n->valor)>maior){
+        maior = n->valor;
+    }
+    
+	buscarMaior(n->dir);
+}
+
+printf("\n%d",maior);

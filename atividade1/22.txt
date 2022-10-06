@@ -1,0 +1,1 @@
+Em principios basicos e gerais nada muda na implentação, já que as duas são igualmente balanceadas, e a diferença se retém na inserção de valores na árvore para seu arranjo de nós.

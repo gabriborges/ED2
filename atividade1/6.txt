@@ -1,0 +1,20 @@
+void buscarPrimo(Nodo *n){
+    if(n==NULL) return;
+    
+    buscarPrimo(n->esq); 
+    int div = 0;
+    for (int i = 1; i <= (n->esq); i++) {
+        if ((n->esq) % i == 0) { 
+            div++;
+    }}
+    if (div == 2) printf("\n%d",n->valor); return;
+
+
+    buscarPrimo(n->dir);
+    div = 0;
+    for (int i = 1; i <= (n->dir); i++) {
+        if ((n->dir) % i == 0) { 
+            div++;
+    }}
+    if (div == 2) printf("\n%d",n->valor); return;
+}

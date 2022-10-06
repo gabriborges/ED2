@@ -1,0 +1,2 @@
+Uma árvore ABB, árvore binária de busca, é uma árvore que esta sempre balanceada, pois cada nó possui no máximo 2 filhos onde o à direita é maior e o à esquerda é menor que o pai.
+Uma árvore AVL é uma árvore binária de busca onde a diferença em altura entre as subárvores esquerda e direita de cada nó é no máximo um (positivo ou negativo).
